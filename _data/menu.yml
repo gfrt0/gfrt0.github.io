@@ -3,9 +3,8 @@
 
 entries:
     - title: i am a phd student at the <a href='https://www.ucl.ac.uk/economics/'>department of economics, university college london</a>. 
-    - title: |
-     my curriculum vitae is <a href="https://raw.githubusercontent.com/gfrt0/gfrt0.github.io/master/content/forte_cv.pdf">here</a>;
-    it contains my email address. 
+    - title: "my curriculum vitae is <a href="https://raw.githubusercontent.com/gfrt0/gfrt0.github.io/master/content/forte_cv.pdf">here</a>; \n
+    it contains my email address." 
     - title: i am interested in applied microeconometrics.
 
   # - title: all posts
