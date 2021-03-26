@@ -2,9 +2,8 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
-    entries:
-      - title: i am a phd student at the <a href='https://www.ucl.ac.uk/economics/'>university college london economics department</a>
+    - title: i am a phd student at the <a href='https://www.ucl.ac.uk/economics/'>department of economics, university college london</a>
+    - title: my curriculum vitae is <a href="https://www.gfrt0.github.io/_content/forte_cv.pdf">here</a>; it contains my email address. 
 
   # - title: all posts
   #   post_list:
