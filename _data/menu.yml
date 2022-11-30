@@ -4,13 +4,15 @@
 entries:
 - title: my name is giuseppe forte. 
 - title: >-
-    i am a phd student in economics @ <a
-    href='https://www.ucl.ac.uk/economics/'>ucl</a>.
+    i am a phd student in economics at <a
+    href='https://www.ucl.ac.uk/economics/'>ucl</a>, <a
+    href='https://ifs.org.uk/'>ifs</a>, and <a
+    href='https://www.cemmap.ac.uk/'>cemmap</a>.
 - title: i mostly work in empirical industrial organisation.
 - title: >-
     my cv is <a
     href="https://raw.githubusercontent.com/gfrt0/gfrt0.github.io/master/content/forte_cv.pdf">here</a>;
-    it contains my email address.
+    it contains my email address and my work.
 - title: my github profile is <a href="https://github.com/gfrt0">here</a>.
 - title: feel free to get in touch. 
 
