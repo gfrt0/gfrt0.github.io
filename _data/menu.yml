@@ -17,10 +17,10 @@ entries:
 - title: feel free to get in touch. 
 - title: research
     post_list:
-      category: research
+      limit: 100
       show_more: true
       show_more_text: See more posts...
-      show_more_url: research-archive.html
+      show_more_url: archive.html
   
   # - title: all posts
   #   post_list:
