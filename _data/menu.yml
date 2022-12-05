@@ -1,6 +1,3 @@
-# For documentation on this file, see:
-# https://github.com/riggraz/no-style-please#customize-the-menu
-
 entries:
 - title: my name is giuseppe forte. 
 - title: >-
@@ -16,24 +13,3 @@ entries:
     it contains my email address.
 - title: my github profile is <a href="https://github.com/gfrt0">here</a>.
 - title: feel free to get in touch.   
-
-  # - title: posts by category
-  #   post_list:
-  #     category: example2
-  #     show_more: true
-  #     show_more_text: See more posts...
-  #     show_more_url: example2-archive.html
-
-  # - title: rss
-  #   url: feed.xml
-  
-  # - title: another list
-  #   entries:
-  #     - title: with subitems
-  #       entries:
-  #         - title: with subsubitems
-  #         - title: example page
-  #           url: about
-  # - title: PRO TIP
-  #   entries:
-  #     - title: to edit this menu, edit _data/menu.yml file
