@@ -34,6 +34,8 @@ body {
 
 .post-meta { text-align: right; }
 
+h1 { text-transform: lowercase; }
+
 h2, h3, h4, h5, h6 { margin-top: 3rem; }
 
 hr { margin: 2rem 0; }
@@ -46,7 +48,7 @@ li { margin: 0.4rem 0; }
 
 .w {
   width: fit-content;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 4rem 2rem;
 }
