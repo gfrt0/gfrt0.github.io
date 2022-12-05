@@ -14,20 +14,13 @@ entries:
     href="https://raw.githubusercontent.com/gfrt0/gfrt0.github.io/master/content/forte_cv.pdf">here</a>;
     it contains my email address and my work.
 - title: my github profile is <a href="https://github.com/gfrt0">here</a>.
-- title: feel free to get in touch. 
-- title: research
+- title: feel free to get in touch.   
+  - title: all posts
     post_list:
-      limit: 100
+      limit: 5
       show_more: true
-      show_more_text: See more posts...
+      show_more_text: See archive...
       show_more_url: archive.html
-  
-  # - title: all posts
-  #   post_list:
-  #     limit: 5
-  #     show_more: true
-  #     show_more_text: See archive...
-  #     show_more_url: archive.html
 
   # - title: posts by category
   #   post_list:
