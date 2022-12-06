@@ -8,7 +8,7 @@ html { height: 100%; }
 body {
   color: white;
   font-family: monospace;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
@@ -80,7 +80,7 @@ img {
 //link styling
 $link-color: rgb(170, 229, 116);
 $hover-color: darken($link-color, 20%);
-$visited-color: rgb(229, 161, 116);
+$visited-color: rgb(170, 229, 116);
 
 a{
     color: $link-color;
