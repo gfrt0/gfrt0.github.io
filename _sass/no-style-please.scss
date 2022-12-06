@@ -87,12 +87,12 @@ a{
     text-decoration: none;
     
     &:hover{
-      color: $link-color;
+      color: $hover-color;
       border-bottom: 1px solid $hover-color;
     }
     
     &:visited{
-      color: $link-color;
+      color: $visited-color;
       border-color: $visited-color;
     }
   }
