@@ -76,3 +76,23 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+//link styling
+$link-color: rgb(170, 229, 116);
+$hover-color: darken($link-color, 20%);
+$visited-color: rgb(229, 161, 116);
+
+a{
+    color: $link-color;
+    text-decoration: none;
+    
+    &:hover{
+      color: $link-color;
+      border-bottom: 1px solid $hover-color;
+    }
+    
+    &:visited{
+      color: $link-color;
+      border-color: $visited-color;
+    }
+  }
