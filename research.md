@@ -1,6 +1,6 @@
 ---
-layout: page
-title: gf - research
+layout: research
+title: research
 permalink: /research
 ---
 
