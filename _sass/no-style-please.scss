@@ -29,10 +29,11 @@ li { margin: 0.4rem 0; }
 *:target { background: orange; }
 
 .w {
-  width: fit-content;
+  width: 100%;
   max-width: 960px;
   margin: 0 auto;
   padding: 4rem 2rem;
+  box-sizing: border-box;
 }
 
 hr {
@@ -112,7 +113,7 @@ a{
 
   .home-photo {
     flex-shrink: 0;
-    img { width: 180px; }
+    img { width: 240px; }
   }
 
   .home-intro {
@@ -125,6 +126,6 @@ a{
   .home-header {
     flex-direction: column;
     align-items: center;
-    .home-photo img { width: 140px; }
+    .home-photo img { width: 200px; }
   }
 }
