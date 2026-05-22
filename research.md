@@ -11,7 +11,7 @@ Last updated: 2026-01-16
 | title | co-author(s) | status |
 | --- | :---: | :---: |
 | An Empirical Model of Online Ratings Supply and Demand | | work in progress <br /> job market paper |
-| [Recursivity and the Estimation of Dynamic Games with Continuous Controls](https://github.com/gfrt0/gfrt0.github.io/blob/master/content/fg_dgs.pdf){:target="_blank"} | [João Granja](https://www.joaogranja.net/) (UCL) | working paper |
+| [Recursivity and the Estimation of Dynamic Games with Continuous Controls](/content/fg_dgs.pdf){:target="_blank"} | [João Granja](https://www.joaogranja.net/) (UCL) | working paper |
 | Semiparametric Estimation of Dynamic Continuous Choice Problems | [João Granja](https://www.joaogranja.net/) (UCL) | work in progress |
 
 ## Pre-PhD Research
