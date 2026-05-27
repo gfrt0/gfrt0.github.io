@@ -30,7 +30,7 @@ li { margin: 0.4rem 0; }
 
 .w {
   width: 100%;
-  max-width: 960px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 4rem 2rem;
   box-sizing: border-box;
@@ -44,7 +44,7 @@ hr {
   &:after { content: attr(data-content) '/////' }
 }
 
-table { width: 100%; }
+table { width: 100%; white-space: nowrap; }
 
 table, th, td {
   border: thin solid white;

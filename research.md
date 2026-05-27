@@ -4,12 +4,13 @@ title: research
 permalink: /research
 ---
 
-Last updated: 2026-01-16
+Last updated: 2026-05-27
 
 ## PhD Research
 
 | title | co-author(s) | status |
 | --- | :---: | :---: |
+| [Welfare Effects of the 2026 Italian Fuel-Excise Cut](/content/gasrebate.pdf){:target="_blank"} | | draft |
 | An Empirical Model of Online Ratings Supply and Demand | | work in progress <br /> job market paper |
 | [Recursivity and the Estimation of Dynamic Games with Continuous Controls](/content/fg_dgs.pdf){:target="_blank"} | [João Granja](https://www.joaogranja.net/) (UCL) | working paper |
 | Semiparametric Estimation of Dynamic Continuous Choice Problems | [João Granja](https://www.joaogranja.net/) (UCL) | work in progress |
