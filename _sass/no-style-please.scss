@@ -44,7 +44,7 @@ hr {
   &:after { content: attr(data-content) '/////' }
 }
 
-table { width: 100%; white-space: nowrap; table-layout: fixed; }
+table { width: 100%; table-layout: fixed; }
 th:nth-child(1), td:nth-child(1) { width: 60%; }
 th:nth-child(2), td:nth-child(2) { width: 22%; }
 th:nth-child(3), td:nth-child(3) { width: 18%; }
