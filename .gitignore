@@ -6,3 +6,4 @@ _site
 vendor
 Gemfile.lock
 CLAUDE.md
+session_logs/*
