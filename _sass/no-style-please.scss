@@ -132,3 +132,35 @@ a{
     .home-photo img { width: 200px; }
   }
 }
+
+// Project cards
+.project-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 3rem;
+
+  .project-photo {
+    flex-shrink: 0;
+    img {
+      width: 280px;
+      max-width: 100%;
+      display: block;
+      border: 1px solid #333;
+    }
+  }
+
+  .project-body {
+    flex: 1;
+    h2 { margin-top: 0; }
+  }
+
+  .project-links a { margin-right: 0.3rem; }
+}
+
+@media (max-width: 600px) {
+  .project-card {
+    flex-direction: column;
+    .project-photo img { width: 100%; }
+  }
+}
