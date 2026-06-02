@@ -9,7 +9,7 @@ permalink: /research
 | title | co-author(s) | status |
 | --- | :---: | :---: |
 | [Welfare Effects of the 2026 Italian Fuel-Excise Cut](/content/gasrebate.pdf){:target="_blank"} | | submitted |
-| [Recursivity and the Estimation of Dynamic Games with Continuous Controls](/content/fg_dgs.pdf){:target="_blank"} | [João Granja](https://www.joaogranja.net/) (UCL) | working paper |
+| [Recursivity and the Estimation of Dynamic Games with Continuous Controls](/content/fg_dgs.pdf){:target="_blank"} | [João Granja](https://www.joaogranja.net/) (UCL) | submitted |
 | An Empirical Model of Online Ratings Supply and Demand | | work in progress <br /> job market paper |
 | Semiparametric Estimation of Dynamic Continuous Choice Problems | [João Granja](https://www.joaogranja.net/) (UCL) | work in progress |
 
