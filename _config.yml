@@ -3,8 +3,9 @@ author: giuseppe forte # name of site's author
 email: # email of site's author
 url: https://gfrt0.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: 
+description:
 permalink: /:slug.html
+goat_counter: gfrt0
 
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
