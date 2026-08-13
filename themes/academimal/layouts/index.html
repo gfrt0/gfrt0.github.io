@@ -13,6 +13,17 @@
 {{ $scratch := newScratch }}
 {{ $scratch.Set "pubcnt" 0 }}
 
+{{ with hugo.Data.job_market_paper }}
+<hr>
+<h2 id="jobmarketpaper">Job Market Paper</h2>
+{{ range . }}
+{{ range .works }}
+{{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
+{{ $scratch.Add "pubcnt" 1 }}
+{{ end }}
+{{ end }}
+{{ end }}
+
 {{ with hugo.Data.working_papers }}
 <hr>
 <h2 id="workingpapers">Working Papers</h2>
@@ -37,7 +48,7 @@
 
 {{ with hugo.Data.publications }}
 <hr>
-<h2 id="publications">Publications</h2>
+<h2 id="publications">Pre-PhD Publications</h2>
 {{ range . }}
 {{ range .works }}
 {{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
@@ -46,20 +57,9 @@
 {{ end }}
 {{ end }}
 
-{{ with hugo.Data.dormant }}
+{{ with .GetPage "/sections/other.md" }}
 <hr>
-<h2 id="dormant">Dormant</h2>
-{{ range . }}
-{{ range .works }}
-{{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
-{{ $scratch.Add "pubcnt" 1 }}
-{{ end }}
-{{ end }}
-{{ end }}
-
-{{ with .GetPage "/sections/software.md" }}
-<hr>
-<h2 id="software">Software &amp; Data</h2>
+<h2 id="other">Other</h2>
 {{ .Content }}
 {{ end }}
 

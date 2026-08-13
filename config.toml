@@ -7,8 +7,8 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term", "rss"]
 
 [params]
-    shortbio = "PhD candidate in Economics, UCL and cemmap"
-    description = "Giuseppe Forte — PhD candidate in economics at UCL and cemmap, working in empirical industrial organisation."
+    shortbio = "PhD candidate in Economics, UCL"
+    description = "Giuseppe Forte — PhD candidate in economics at UCL and cemmap, working in empirical industrial organisation and applied microeconomics. On the job market during the 2026-27 academic year."
     logo = "/img/personal.jpeg"
     cvlink = "/content/forte_cv.pdf"
     github = "gfrt0"

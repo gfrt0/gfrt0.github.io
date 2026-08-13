@@ -2,6 +2,9 @@
 {{ with .GetPage "/sections/contact.md" }}
 <p class="contactinfo"><a href="{{ "#contact" | relURL }}">Contact</a></p>
 {{ end }}
+{{ with hugo.Data.job_market_paper }}
+<p class="contactinfo"><a href="{{ "#jobmarketpaper" | relURL }}">Job Market Paper</a></p>
+{{ end }}
 {{ with hugo.Data.working_papers }}
 <p class="contactinfo"><a href="{{ "#workingpapers" | relURL }}">Working Papers</a></p>
 {{ end }}
@@ -9,17 +12,8 @@
 <p class="contactinfo"><a href="{{ "#workinprogress" | relURL }}">Work in Progress</a></p>
 {{ end }}
 {{ with hugo.Data.publications }}
-<p class="contactinfo"><a href="{{ "#publications" | relURL }}">Publications</a></p>
+<p class="contactinfo"><a href="{{ "#publications" | relURL }}">Pre-PhD Publications</a></p>
 {{ end }}
-{{ with hugo.Data.dormant }}
-<p class="contactinfo"><a href="{{ "#dormant" | relURL }}">Dormant</a></p>
-{{ end }}
-{{ with .GetPage "/sections/software.md" }}
-<p class="contactinfo"><a href="{{ "#software" | relURL }}">Software &amp; Data</a></p>
-{{ end }}
-{{ with .Site.Params.cvlink }}
-<p class="contactinfo"><a href="{{ . | relURL }}" target="_blank">CV</a></p>
-{{ end }}
-{{ with .Site.Params.github }}
-<p class="lastcontactinfo"><a href="https://github.com/{{ . }}" target="_blank">GitHub</a></p>
+{{ with .GetPage "/sections/other.md" }}
+<p class="lastcontactinfo"><a href="{{ "#other" | relURL }}">Other</a></p>
 {{ end }}

@@ -3,23 +3,34 @@ works:
 - title: "The Impact of Migration on Productivity: Evidence from the United Kingdom"
   pdflink: "https://www.degruyter.com/document/doi/10.1515/bejeap-2023-0179/html"
   coauthors: '<a href="https://sites.google.com/view/francescocampoecon/" target="_blank">Francesco Campo</a> (Padua), <a href="https://www.kcl.ac.uk/people/professor-jonathan-portes" target="_blank">Jonathan Portes</a> (KCL)'
-  book: "B.E. Journal of Economic Analysis & Policy, 2024"
+  book: "B.E. Journal of Economic Analysis & Policy, 24(2), 537–564, 2024"
   links:
     - url: "/content/CampoFortePortes2024.pdf"
       text: "PDF"
   abstract: >
-      TODO: abstract.
+      The UK saw a sharp rise in work-related migration, particularly from the
+      EU, in the 2000s and 2010s, with profound impacts on the labour market. We
+      investigate the relationship between migration and productivity in Great
+      Britain between 2002 and 2018, using an instrumental variable approach
+      which follows the commonly used shift-share methodology. Our results,
+      which are robust to a variety of tests, suggest that immigration has a
+      positive and significant impact (in both the statistical sense and more
+      broadly) on productivity, as measured by GVA per job at the
+      Travel-to-Work-Area level. We indeed find that a 1 p.p. increase in the
+      share of migrants is associated with a 0.84% increase in productivity in
+      2SLS estimates. We discuss the implications for post-Brexit immigration
+      policy.
 
 - title: "The Economic Impact of Brexit-induced Reductions in Migration"
   pdflink: "https://academic.oup.com/oxrep/article/33/suppl_1/S31/3066076/The-economic-impact-of-Brexit-induced-reductions"
   coauthors: '<a href="https://www.kcl.ac.uk/people/professor-jonathan-portes" target="_blank">Jonathan Portes</a> (KCL)'
-  book: "Oxford Review of Economic Policy, 2017"
+  book: "Oxford Review of Economic Policy, 33(S1), 2017"
   abstract: >
-      TODO: abstract.
-
-- title: "Immigration Policy after Brexit"
-  pdflink: "https://www.gov.wales/sites/default/files/publications/2018-10/brexit-and-fair-movement-of-people.pdf"
-  coauthors: '<a href="https://www.kcl.ac.uk/people/professor-jonathan-portes" target="_blank">Jonathan Portes</a> (KCL)'
-  book: "Welsh Government, Brexit and Fair Movement of People, 2018"
-  abstract: >
-      TODO: abstract.
+      We analyse the determinants of migration flows to the UK, and the impact
+      of restrictions on free movement post-Brexit, in both the short and long
+      term. We then provide plausible, empirically based estimates of the likely
+      impacts on growth and wages using relationships from the existing
+      empirical literature. We find that Brexit-induced reductions in migration
+      are likely to have a significant negative impact on UK GDP per capita (and
+      GDP), with marginal positive impacts on wages in the low-skill service
+      sector.

@@ -3,15 +3,39 @@
 # Order within the section is the order of this file.
 works:
 
-- title: "Welfare Effects of the 2026 Italian Fuel-Excise Cut"
-  pdflink: "/content/gasrebate.pdf"
-  book: "Submitted"
-  abstract: >
-      TODO: abstract.
-
 - title: "Recursivity and the Estimation of Dynamic Games with Continuous Controls"
   pdflink: "/content/fg_dgs.pdf"
   coauthors: '<a href="https://www.joaogranja.net/" target="_blank">João Granja</a> (UCL)'
   book: "Submitted"
   abstract: >
-      TODO: abstract.
+      We study the estimation of dynamic games with continuous control
+      variables, such as investments in R&amp;D, quality, and capacity. We use
+      the recursive characterization of Markov Perfect Equilibria (MPE) to
+      develop estimators that exploit the structure of optimal policies. In
+      particular, we derive a pseudo maximum likelihood estimator for models
+      with shocks to firms' marginal costs of investment. We evaluate the
+      performance of these estimators in two Monte Carlo exercises, including a
+      version of the Hashmi and van Biesebroeck (2016) model of innovation in
+      the automobile industry extended to allow for entry and exit. We find that
+      estimators based on recursive equilibrium conditions perform well and
+      outperform the inequality estimator of Bajari, Benkard, and Levin (2007).
+
+- title: "Welfare Effects of the 2026 Italian Fuel-Excise Cut"
+  pdflink: "/content/gasrebate.pdf"
+  book: "Submitted"
+  abstract: >
+      This article evaluates the welfare effects of the temporary excise cut on
+      petrol and diesel introduced by the Italian government in March 2026 in
+      response to the oil-price shock triggered by the closure of the Strait of
+      Hormuz. We estimate pass-through from a difference-in-differences along
+      the Italy-France border using daily station-level prices. We find 83% of
+      the petrol cut and 74% of the diesel cut reached consumers at the pump.
+      Plugging the pass-through estimates into a sufficient-statistics
+      framework, we find a net welfare gain of EUR 107 million against a fiscal
+      cost of EUR 841 million. Though the fiscal cost is broadly in line with a
+      window-rescaled version of the official parliamentary scoring, imperfect
+      pass-through routed a substantial share of the private welfare gain to
+      refiners and retailers — 15% on petrol and 28% on diesel — at odds with
+      the consumer-price-relief intent signalled by the decree's own
+      anti-speculation provisions. The policy also delivered a relatively low
+      marginal value of public funds of 1.13.

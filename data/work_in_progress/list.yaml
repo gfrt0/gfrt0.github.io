@@ -1,21 +1,15 @@
 works:
 
-- title: "An Empirical Model of Online Ratings Supply and Demand"
-  note: "Job market paper"
-  abstract: >
-      TODO: abstract.
-
 - title: "Semiparametric Estimation of Dynamic Continuous Choice Problems"
   coauthors: '<a href="https://www.joaogranja.net/" target="_blank">João Granja</a> (UCL)'
-  abstract: >
-      TODO: abstract.
+  abstract: "-"
 
 # Parked — uncomment when ready to show publicly.
 #
 # - title: "Voluntary Nutrient Labelling in Equilibrium: UK Cereal, 2005–2021"
 #   coauthors: '<a href="https://www.joaogranja.net/" target="_blank">João Granja</a> (UCL)'
 #   abstract: >
-#       TODO: abstract.
+#       -
 #
 # - title: "Identification of Dynamic Auctions with Incomplete Data"
 #   pdflink: "/content/note_jfp.pdf"

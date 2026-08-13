@@ -1,5 +1,5 @@
 +++
-title = "Software & Data"
+title = "Other"
 +++
 
 ### [europolls](https://gfrt0.github.io/europolls/)

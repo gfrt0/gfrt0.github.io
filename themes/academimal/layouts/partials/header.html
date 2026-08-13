@@ -29,6 +29,20 @@
                 {{ partial "mail.html" . }}
                 </p>
 
+                {{ with .Site.Params.cvlink }}
+                <p class="contactinfo">
+                <img src="{{ "/icons/pdf-symbol.svg" | relURL }}" class="octicons" alt="">
+                <a href="{{ . | relURL }}" target="_blank">Curriculum Vitae</a>
+                </p>
+                {{ end }}
+
+                {{ with .Site.Params.github }}
+                <p class="contactinfo">
+                <img src="{{ "/icons/github.svg" | relURL }}" class="octicons" alt="">
+                <a href="https://github.com/{{ . }}" target="_blank">github.com/{{ . }}</a>
+                </p>
+                {{ end }}
+
                 <hr/>
 
                 {{ partial "sidebar.html" . }}

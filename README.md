@@ -21,14 +21,15 @@ a submodule. Local modifications are marked in the files.
 | what | where |
 | --- | --- |
 | site title, bio line, photo, CV link, analytics | `config.toml` |
-| bio / contact / software prose | `content/sections/*.md` |
-| papers | `data/{working_papers,work_in_progress,publications,dormant}/list.yaml` |
+| bio / contact / other prose | `content/sections/*.md` |
+| papers | `data/{job_market_paper,working_papers,work_in_progress,publications}/list.yaml` |
 | section order and headings | `themes/academimal/layouts/index.html` |
 | sidebar nav | `themes/academimal/layouts/partials/sidebar.html` |
 
 Sections and data files are self-registering: the nav entry and the section both
 appear only when the corresponding file exists, so deleting
-`data/dormant/list.yaml` removes the Dormant section and its nav link.
+`data/work_in_progress/list.yaml` removes the Work in Progress section and its
+nav link. Adding a section means adding it to `index.html` and `sidebar.html`.
 
 Paper entry fields: `title`, `pdflink`, `coauthors`, `book`, `note`,
 `links: [{url, text, note}]`, `abstract`. `coauthors`, `book`, `note` and
