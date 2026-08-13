@@ -1,0 +1,25 @@
+works:
+
+- title: "The Impact of Migration on Productivity: Evidence from the United Kingdom"
+  pdflink: "https://www.degruyter.com/document/doi/10.1515/bejeap-2023-0179/html"
+  coauthors: '<a href="https://sites.google.com/view/francescocampoecon/" target="_blank">Francesco Campo</a> (Padua), <a href="https://www.kcl.ac.uk/people/professor-jonathan-portes" target="_blank">Jonathan Portes</a> (KCL)'
+  book: "B.E. Journal of Economic Analysis & Policy, 2024"
+  links:
+    - url: "/content/CampoFortePortes2024.pdf"
+      text: "PDF"
+  abstract: >
+      TODO: abstract.
+
+- title: "The Economic Impact of Brexit-induced Reductions in Migration"
+  pdflink: "https://academic.oup.com/oxrep/article/33/suppl_1/S31/3066076/The-economic-impact-of-Brexit-induced-reductions"
+  coauthors: '<a href="https://www.kcl.ac.uk/people/professor-jonathan-portes" target="_blank">Jonathan Portes</a> (KCL)'
+  book: "Oxford Review of Economic Policy, 2017"
+  abstract: >
+      TODO: abstract.
+
+- title: "Immigration Policy after Brexit"
+  pdflink: "https://www.gov.wales/sites/default/files/publications/2018-10/brexit-and-fair-movement-of-people.pdf"
+  coauthors: '<a href="https://www.kcl.ac.uk/people/professor-jonathan-portes" target="_blank">Jonathan Portes</a> (KCL)'
+  book: "Welsh Government, Brexit and Fair Movement of People, 2018"
+  abstract: >
+      TODO: abstract.

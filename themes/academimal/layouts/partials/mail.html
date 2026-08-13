@@ -1,0 +1,23 @@
+{{- /* The address appears nowhere in the served HTML as a literal.
+       It is stored ROT13-encoded (so the JS minifier cannot constant-fold it
+       back the way a 'mai'+'lto:' split would be), and decoded at runtime.
+       The no-JS fallback carries decoy spans hidden by CSS (p span.hideit).
+       Safe to include more than once per page. */ -}}
+<span class="email-addr">forte<span class="hideit">nospam</span>gecon<span class="hideit">deleteme</span> [&#65106;] gmail<span class="hideit">trap</span>.com</span>
+<script>
+(function () {
+  function rot13(s) {
+    return s.replace(/[a-zA-Z]/g, function (c) {
+      return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+    });
+  }
+  var addr = rot13("sbegrtrpba@tznvy.pbz");
+  var spans = document.querySelectorAll("span.email-addr");
+  for (var i = 0; i < spans.length; i++) {
+    var a = document.createElement("a");
+    a.setAttribute("href", rot13("znvygb") + ":" + addr);
+    a.textContent = addr;
+    spans[i].parentNode.replaceChild(a, spans[i]);
+  }
+})();
+</script>

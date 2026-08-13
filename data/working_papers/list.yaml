@@ -1,0 +1,17 @@
+# Fields: title, pdflink, coauthors (HTML allowed), book, note,
+#         links: [{url, text, note}], abstract (HTML allowed).
+# Order within the section is the order of this file.
+works:
+
+- title: "Welfare Effects of the 2026 Italian Fuel-Excise Cut"
+  pdflink: "/content/gasrebate.pdf"
+  book: "Submitted"
+  abstract: >
+      TODO: abstract.
+
+- title: "Recursivity and the Estimation of Dynamic Games with Continuous Controls"
+  pdflink: "/content/fg_dgs.pdf"
+  coauthors: '<a href="https://www.joaogranja.net/" target="_blank">João Granja</a> (UCL)'
+  book: "Submitted"
+  abstract: >
+      TODO: abstract.

@@ -1,0 +1,18 @@
+baseURL = "https://gfrt0.github.io/"
+title = "Giuseppe Forte"
+theme = "academimal"
+sectionPagesMenu = "main"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term", "rss"]
+
+[params]
+    shortbio = "PhD candidate in Economics, UCL and cemmap"
+    description = "Giuseppe Forte — PhD candidate in economics at UCL and cemmap, working in empirical industrial organisation."
+    logo = "/img/personal.jpeg"
+    cvlink = "/content/forte_cv.pdf"
+    github = "gfrt0"
+    goatcounter = "gfrt0"
+
+[markup.goldmark.renderer]
+    unsafe = true
