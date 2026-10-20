@@ -1,7 +1,4 @@
 <p class="contactinfo"><a href="{{ "#bio" | relURL }}">Bio</a></p>
-{{ with .GetPage "/sections/contact.md" }}
-<p class="contactinfo"><a href="{{ "#contact" | relURL }}">Contact</a></p>
-{{ end }}
 {{ with hugo.Data.job_market_paper }}
 <p class="contactinfo"><a href="{{ "#jobmarketpaper" | relURL }}">Job Market Paper</a></p>
 {{ end }}

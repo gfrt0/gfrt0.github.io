@@ -4,12 +4,6 @@
 {{ .Content }}
 {{ end }}
 
-{{ with .GetPage "/sections/contact.md" }}
-<hr>
-<h2 id="contact">Contact</h2>
-{{ .Content }}
-{{ end }}
-
 {{ $scratch := newScratch }}
 {{ $scratch.Set "pubcnt" 0 }}
 
