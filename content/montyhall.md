@@ -20,7 +20,7 @@ Play the game many times below and watch the shares of wins settle.
       <output id="mh-n-out">3000</output></label>
     <button id="mh-run" type="button">Play</button>
   </div>
-  <canvas id="mh-plot" width="700" height="420" aria-label="Share of wins against number of episodes"></canvas>
+  <canvas id="mh-plot" width="700" height="420" aria-label="Probability of winning against episodes played"></canvas>
   <ul class="mh-legend">
     <li><span style="background:#d1495b"></span>host knows, stay</li>
     <li><span style="background:#00798c"></span>host knows, switch</li>
@@ -33,9 +33,6 @@ Play the game many times below and watch the shares of wins settle.
 With a random host, the shares count only the episodes in which the prize was
 not revealed: those are the only ones where the contestant faces the same
 choice.
-
-I wrote this for first-year statistics at UCL in 2020; the original is in R
-([montyhall.R](/content/montyhall.R)).
 
 <style>
 #mh { margin: 1.5em 0; }
@@ -75,7 +72,7 @@ I wrote this for first-year statistics at UCL in 2020; the original is in R
   }
 
   function draw(series, total) {
-    const W = canvas.width, H = canvas.height, L = 48, R = 24, T = 12, B = 36;
+    const W = canvas.width, H = canvas.height, L = 64, R = 24, T = 12, B = 36;
     const x = (i) => L + (W - L - R) * i / Math.max(total, 1);
     const y = (v) => T + (H - T - B) * (1 - v);
     ctx.clearRect(0, 0, W, H);
@@ -93,7 +90,12 @@ I wrote this for first-year statistics at UCL in 2020; the original is in R
       const n = Math.round(total * k / 4);
       ctx.fillText(String(n), x(n), H - B + 16);
     }
-    ctx.fillText("episodes played", (L + W - R) / 2, H - 4);
+    ctx.fillText("Episodes Played", (L + W - R) / 2, H - 4);
+    ctx.save();
+    ctx.translate(14, (T + H - B) / 2);
+    ctx.rotate(-Math.PI / 2);
+    ctx.fillText("Probability", 0, 0);
+    ctx.restore();
     series.forEach((s, j) => {
       ctx.strokeStyle = COLORS[j];
       ctx.lineWidth = 2;
