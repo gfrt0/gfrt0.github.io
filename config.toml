@@ -13,6 +13,7 @@ disableKinds = ["taxonomy", "term", "rss"]
     cvlink = "/content/forte_cv.pdf"
     github = "gfrt0"
     goatcounter = "gfrt0"
+    googleverification = "ABvYQNWT3Yizv6wb0J2CUQixM83T0hYs1t96Oo4kibQ"
 
 [markup.goldmark.renderer]
     unsafe = true
