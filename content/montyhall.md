@@ -1,5 +1,6 @@
 +++
 title = "The Monty Hall problem, simulated"
+description = "An interactive simulation of the Monty Hall problem: why switching wins two times in three when the host knows where the prize is, and only half the time when the host picks at random."
 +++
 
 A prize sits behind one of three doors. You pick a door. The host then opens

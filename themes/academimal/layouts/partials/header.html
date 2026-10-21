@@ -4,14 +4,28 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-        {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+        <title>{{ if .IsHome }}{{ .Site.Title }} | Economics PhD, UCL &amp; cemmap{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+        {{ with (or .Description .Site.Params.description) }}<meta name="description" content="{{ . }}">{{ end }}
         <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
         <meta property="og:type" content="website">
         <meta property="og:url" content="{{ .Permalink }}">
-        {{ with .Site.Params.description }}<meta property="og:description" content="{{ . }}">{{ end }}
+        {{ with (or .Description .Site.Params.description) }}<meta property="og:description" content="{{ . }}">{{ end }}
         {{ with .Site.Params.logo }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
         <link rel="canonical" href="{{ .Permalink }}">
+        {{ with .Site.Params.googleverification }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+        {{ if .IsHome }}
+        <!-- Tells search engines which Giuseppe Forte this is. -->
+        <script type="application/ld+json">
+        {"@context": "https://schema.org", "@type": "Person",
+         "name": "Giuseppe Forte", "url": "https://gfrt0.github.io/",
+         "jobTitle": "PhD candidate in Economics",
+         "affiliation": [{"@type": "CollegeOrUniversity", "name": "University College London", "url": "https://www.ucl.ac.uk/economics/"},
+                         {"@type": "Organization", "name": "cemmap", "url": "https://cemmap.ac.uk/"}],
+         "knowsAbout": ["Industrial organization", "Applied microeconomics", "Structural econometrics"],
+         "image": "https://gfrt0.github.io/img/personal.jpeg",
+         "sameAs": ["https://github.com/gfrt0", "https://cemmap.ac.uk/person/giuseppe-forte/"]}
+        </script>
+        {{ end }}
         <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
         <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | relURL }}">
         <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relURL }}">
