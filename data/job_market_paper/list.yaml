@@ -1,16 +1,20 @@
 works:
 
-- title: "In the Stars: Buyer and Seller Value of Online Ratings"
+- title: "Buyer and Seller Value of Online Ratings"
   abstract: >
-      Online ratings are a controversial determinant of consumer choices and
-      firm fates. Their availability has unclear net and distributional welfare
-      effects across buyers and heterogeneous sellers. I develop a model to
-      quantify these effects, which I apply to data from the California
-      residential photovoltaic market. I find that ratings raise consumer
-      surplus by $64.1 million over 2016&ndash;2022, closing 76% of the gap to
-      full information. Ratings redistribute sales and profits from low-quality
-      firms to high-quality ones, and they raise total producer surplus.
-      Ratings transfer surplus predominantly by redirecting sales, rather than
-      by affecting prices. Most of the consumers' gain comes from which
-      installers they ask for quotes, rather than from their choice among the
-      quotes they receive.
+      The availability of online ratings has ex ante unclear welfare effects,
+      as producers' equilibrium responses determine the distribution of the
+      value of information between consumers and producers. I present a
+      framework to measure the information online ratings contain and trace
+      the effect of this information through demand and pricing to welfare.
+      In an application to the California residential photovoltaic market, I
+      find that ratings raise consumer surplus by $64.1 million over
+      2016&ndash;2022, closing 76% of the difference between no ratings and
+      full information. Ratings redistribute sales and profits from
+      low-quality firms to high-quality ones, raising total producer surplus.
+      Producer responses have limited impact on consumers' gain in this
+      market: markups barely respond to ratings, which redirect sales without
+      increasing prices. A decomposition of the channels through which ratings
+      affect consumer choices attributes 67% of the consumers' gain to which
+      installers they consider, and only 7% to improvement in choices among
+      considered alternatives.
