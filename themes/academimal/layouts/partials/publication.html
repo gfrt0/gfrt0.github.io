@@ -7,6 +7,8 @@
 {{ $pid := .pid }}
 {{ with .context.abstract }}<p style="margin:0 0 5px;"><a href="javascript:toggle({{ $pid }})">Abstract<span id="pubabslink_{{ $pid }}"> (click to expand)</span></a><span id="pubabs_{{ $pid }}" style="display:none;">: {{ . | safeHTML }}</span></p>{{ end }}
 
+{{ with .context.presentations }}<p style="margin:0 0 5px;">Selected Presentations: {{ range $i, $p := . }}{{ if $i }}, {{ end }}{{ with $p.url }}<a href="{{ . }}" target="_blank">{{ end }}{{ $p.text }}{{ with $p.url }}</a>{{ end }}{{ end }}</p>{{ end }}
+
 {{ with .context.links }}
 {{ range . }}
 <p style="margin:0 0 5px;"><a href="{{ .url }}" target="_blank">{{ .text }}</a>{{ with .note }}: {{ . | safeHTML }}{{ end }}</p>
