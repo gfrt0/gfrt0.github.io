@@ -3,22 +3,22 @@ works:
 - title: "Buyer and Seller Value of Online Ratings"
   pdflink: "https://forte-papers.forteg100.workers.dev/Forte_JMP_OnlineRatings.pdf"
   abstract: >
-      The availability of online ratings has ex ante unclear welfare effects,
-      as producers' equilibrium responses determine the distribution of the
-      value of information between consumers and producers. I present a
-      framework to measure the information online ratings contain and trace
-      the effect of this information through demand and pricing to welfare.
-      In an application to the California residential photovoltaic market, I
-      find that ratings raise consumer surplus by $64.1 million over
+      Online ratings guide buyers in many markets, but how much they are
+      worth, and to whom, depends on how sellers respond to the information
+      they carry. I develop a framework that captures the learning,
+      consideration and price-competition effects of ratings, and use it to
+      measure the gains from ratings across consumers and sellers of
+      heterogeneous quality. In an application to the California photovoltaic
+      market, where I am able to match Google and Yelp ratings to residential
+      installations, I find that ratings raise consumer surplus by 3.4% over
       2016&ndash;2022, closing 76% of the difference between no ratings and
-      full information. Ratings redistribute sales and profits from
-      low-quality firms to high-quality ones, raising total producer surplus.
-      Producer responses have limited impact on consumers' gain in this
-      market: markups barely respond to ratings, which redirect sales without
-      increasing prices. A decomposition of the channels through which ratings
-      affect consumer choices attributes 67% of the consumers' gain to which
-      installers they consider, and only 7% to improvement in choices among
-      considered alternatives.
+      full information. A decomposition of the channels through which ratings
+      affect consumer choices attributes 66% of consumers' gain to which
+      installers they ask for quotes, and only 8% to their choice among the
+      quotes they hold. Installers' profits rise by 2.1%, with high-quality
+      installers gaining and low-quality ones losing. The concern that better
+      information softens price competition is not borne out in this market:
+      average markups barely respond to ratings.
   presentations:
     - text: "CEPR IO Virtual Gathering 2026"
       url: "https://cepr.org/events/cepr-io-virtual-gathering-2026"
