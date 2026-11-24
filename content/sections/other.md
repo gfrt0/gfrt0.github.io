@@ -26,3 +26,8 @@ attributions (introducing executive and executive at most recent amendment).
 
 [live site](https://gfrt0.github.io/spesefiscali/) &middot;
 [repo](https://github.com/gfrt0/spesefiscali)
+
+### [talk timer](/talktimer/)
+
+Section-by-section timer for talks. It shows the time left in the current
+section and how far ahead or behind the overall plan you are.
