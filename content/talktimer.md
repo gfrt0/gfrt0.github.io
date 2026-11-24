@@ -3,11 +3,6 @@ title = "Talk timer"
 description = "A section-by-section timer for talks: plan how long each part should take, then see the time left in the current section and how far ahead or behind the overall plan you are."
 +++
 
-Split a talk into sections, give each a time, and run through them. The big
-number is the time left in the current section; it turns amber near the end
-and red once you overrun. Pace tracks how far ahead or behind the overall plan
-you are. Your sections are saved in this browser.
-
 <div id="tt">
   <div class="tt-top">
     <button id="tt-edit" type="button">Edit sections</button>
