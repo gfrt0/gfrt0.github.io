@@ -481,3 +481,9 @@ footer {
 /* Keep the headshot at sidebar width when the layout stacks on narrow screens. */
 header img {
   max-width: 270px; }
+
+/* Headshot sits above the name; height follows width when it shrinks. */
+header img.headshot {
+  display: block;
+  height: auto;
+  margin-bottom: 10px; }
