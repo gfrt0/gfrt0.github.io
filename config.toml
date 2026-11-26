@@ -8,7 +8,7 @@ disableKinds = ["taxonomy", "term", "rss"]
 
 [params]
     shortbio = 'PhD candidate in Economics<br><a href="https://www.ucl.ac.uk/economics/">University College London (UCL)</a>'
-    description = "Giuseppe Forte — PhD candidate in economics at UCL and cemmap, working in industrial organization, applied microeconomics, and structural econometrics: how information and policy shape equilibrium outcomes in oligopolistic markets, particularly digital, energy, and environmental ones, and estimation methods for dynamic competition. On the job market during the 2026-27 academic year."
+    description = "Giuseppe Forte — PhD candidate in economics at UCL and cemmap, working in industrial organization, applied microeconomics, and structural econometrics: how information and policy shape equilibrium outcomes in oligopolistic markets, and estimation methods for the dynamic competition questions that arise in these markets. On the job market during the 2026-27 academic year."
     logo = "/img/personal.jpeg"
     cvlink = "/content/forte_cv.pdf"
     github = "gfrt0"
